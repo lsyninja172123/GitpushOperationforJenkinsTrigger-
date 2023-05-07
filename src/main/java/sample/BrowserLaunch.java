@@ -15,6 +15,7 @@ public class BrowserLaunch {
      options.addArguments("--disable-dev-shm-usage");
      WebDriver driver=new ChromeDriver(options);
      driver.get("https://www.google.com");
+     System.out.println("done");
      
 	}
 }
