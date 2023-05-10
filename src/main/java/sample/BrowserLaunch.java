@@ -16,6 +16,7 @@ public class BrowserLaunch {
      WebDriver driver=new ChromeDriver(options);
      driver.get("https://www.google.com");
      System.out.println("done");
+     System.out.println("Newly added syout");
      
 	}
 }
