@@ -19,6 +19,7 @@ public class BrowserLaunch {
      driver.get("https://www.google.com");
      System.out.println("done");
      System.out.println("Newly added syout");
+		System.out.println("Newly added syout");
      driver.findElement(By.name("q")).sendKeys("jenkins"+Keys.ENTER);
      
      
