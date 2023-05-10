@@ -20,7 +20,10 @@ public class BrowserLaunch {
      System.out.println("done");
      System.out.println("Newly added syout");
 		System.out.println("Newly added syout");
-     driver.findElement(By.name("q")).sendKeys("jenkins"+Keys.ENTER);
+
+				System.out.println("Newly added syout");
+
+		driver.findElement(By.name("q")).sendKeys("jenkins"+Keys.ENTER);
      
      
 	}
