@@ -1,5 +1,7 @@
 package sample;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -17,6 +19,8 @@ public class BrowserLaunch {
      driver.get("https://www.google.com");
      System.out.println("done");
      System.out.println("Newly added syout");
+     driver.findElement(By.name("q")).sendKeys("jenkins"+Keys.ENTER);
+     
      
 	}
 }
